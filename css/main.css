@@ -1664,18 +1664,6 @@ blockquote {
 .main-inner {
   margin-top: 10px !important;
 }
-.post-block {
-  background-color: #fff;
-  padding: 10px 30px 30px;
-  -webkit-box-shadow: 0 0 14px #cacbcb;
-  -moz-box-shadow: 0 0 14px #cacbcc;
-}
-.posts-expand .post:not(:first-child) {
-  margin-top: 30px !important;
-}
-.posts-expand .post:first-child {
-  margin-top: 20px !important;
-}
 .main {
   padding-bottom: 100px;
 }
@@ -1866,7 +1854,7 @@ blockquote {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8b28ff;
+  background: #abb132;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2947,4 +2935,23 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.post-block {
+  background-color: #fff;
+  padding: 10px 30px 30px;
+  -webkit-box-shadow: 0 0 14px #cacbcb;
+  -moz-box-shadow: 0 0 14px #cacbcc;
+}
+.posts-expand .post:not(:first-child) {
+  margin-top: 30px;
+}
+.posts-expand .post:first-child {
+  margin-top: 20px;
+}
+.post-wordcount {
+  display: inline-block;
+  margin-left: 15px;
+}
+.page-post-detail .post-meta {
+  margin-bottom: 35px;
 }
