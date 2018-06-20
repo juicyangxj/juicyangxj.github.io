@@ -1658,6 +1658,50 @@ pre .javascript .function {
 .rtl.post-title {
   font-family: UKIJ Ekran;
 }
+blockquote {
+  border-color: #87ceeb !important;
+}
+.main-inner {
+  margin-top: 10px !important;
+}
+.post-block {
+  background-color: #fff;
+  padding: 10px 30px 30px;
+  -webkit-box-shadow: 0 0 14px #cacbcb;
+  -moz-box-shadow: 0 0 14px #cacbcc;
+}
+.posts-expand .post:not(:first-child) {
+  margin-top: 30px !important;
+}
+.posts-expand .post:first-child {
+  margin-top: 20px !important;
+}
+.main {
+  padding-bottom: 100px;
+}
+.header,
+.footer {
+  background-color: transparent !important;
+}
+.comments {
+  margin: 60px -5px 0 !important;
+}
+@media (max-width: 500px) {
+  .github-corner {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .header-inner {
+    margin-bottom: 0 !important;
+  }
+  .posts-expand .post:not(:first-child) {
+    margin-top: 20px !important;
+  }
+  .posts-expand .post:first-child {
+    margin-top: 0px !important;
+  }
+}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1822,7 +1866,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #04c67d;
+  background: #ffff96;
 }
 .links-of-blogroll {
   font-size: 13px;
