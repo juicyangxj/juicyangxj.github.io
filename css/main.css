@@ -1658,38 +1658,6 @@ pre .javascript .function {
 .rtl.post-title {
   font-family: UKIJ Ekran;
 }
-blockquote {
-  border-color: #87ceeb !important;
-}
-.main-inner {
-  margin-top: 10px !important;
-}
-.main {
-  padding-bottom: 100px;
-}
-.header,
-.footer {
-  background-color: transparent !important;
-}
-.comments {
-  margin: 60px -5px 0 !important;
-}
-@media (max-width: 500px) {
-  .github-corner {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  .header-inner {
-    margin-bottom: 0 !important;
-  }
-  .posts-expand .post:not(:first-child) {
-    margin-top: 20px !important;
-  }
-  .posts-expand .post:first-child {
-    margin-top: 0px !important;
-  }
-}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1854,7 +1822,7 @@ blockquote {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #32243e;
+  background: #5d9ed2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2954,4 +2922,69 @@ hr {
 }
 .page-post-detail .post-meta {
   margin-bottom: 35px;
+}
+body {
+  background: url("/icons/bg.jpg") no-repeat center;
+  background-size: 100% 100%;
+}
+.container {
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.footer {
+  margin-top: 0px;
+  position: relative;
+}
+blockquote {
+  border-color: #87ceeb;
+}
+.main-inner {
+  margin-top: 10px;
+}
+.main {
+  padding-bottom: 30px;
+  min-height: calc(100% - 220px);
+  min-height: -webkit-calc(100% - 220px);
+}
+.pagination,
+.pagination >a,
+.pagination >span {
+  border-color: transparent;
+}
+.pagination {
+  text-align: center;
+}
+.pagination .page-number.current {
+  background: #000;
+}
+.logo-line-before,
+.logo-line-after {
+  display: none;
+}
+.header,
+.footer {
+  background-color: transparent;
+}
+.comments {
+  margin: 60px -5px 0;
+}
+.site-title {
+  font-size: 30px;
+}
+@media (max-width: 500px) {
+  .github-corner {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .header-inner {
+    margin-bottom: 0;
+  }
+  .posts-expand .post:not(:first-child) {
+    margin-top: 20px;
+  }
+  .posts-expand .post:first-child {
+    margin-top: 0px;
+  }
 }
