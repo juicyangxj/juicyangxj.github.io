@@ -467,6 +467,20 @@ daovoice('update');
   <span class="author" itemprop="copyrightHolder">Juicyangxj-杨晓君-晓说</span>
 
   
+	<script>
+	var count=0; 
+	function changeBG(){
+		//var array=['/icons/bg.jpg','/icons/bl.jpg','/icons/cs.jpg','/icons/沙漠.jpg','/icons/村庄.jpg','/icons/山林.jpg'];
+		var array=['bl','cs','sm','cz','sl',''];
+		document.getElementsByTagName("body")[0].className=array[count];
+		if(count!=5){
+			document.getElementsByTagName("canvas")[0].style.display='none';
+		}else
+			document.getElementsByTagName("canvas")[0].style.display='block';
+		count=count+1>5?0:count+1;
+	}
+</script>
+	<span onclick="changeBG()" style="margin-left:20px;cursor:pointer;text-decoration:underline;">换个背景</span>
 </div>
 
 
