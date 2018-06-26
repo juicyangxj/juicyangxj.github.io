@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #039e3c;
+  background: #863bff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2943,7 +2943,7 @@ body.bl {
   background-size: 100% 100%;
 }
 body.cz {
-  background: url("/icons/cz.jpg") no-repeat center;
+  background: url("/icons/bg1.jpg") no-repeat center;
   background-size: 100% 100%;
 }
 body.sl {
@@ -2951,7 +2951,7 @@ body.sl {
   background-size: 100% 100%;
 }
 body.sm {
-  background: url("/icons/sm.jpg") no-repeat center;
+  background: url("/icons/bg2.jpg") no-repeat center;
   background-size: 100% 100%;
 }
 body.cs {
@@ -2966,6 +2966,19 @@ body.cs {
 .footer {
   margin-top: 0px;
   position: relative;
+}
+.menu-item.menu-item-active {
+  background-color: #87ceeb;
+  border-radius: 100px;
+}
+.menu-item.menu-item-active a {
+  color: #fff;
+}
+.menu .menu-item a:hover {
+  background: transparent;
+}
+a {
+  color: #333;
 }
 blockquote {
   border-color: #87ceeb;

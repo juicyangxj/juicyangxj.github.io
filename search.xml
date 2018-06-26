@@ -47,7 +47,7 @@
   <entry>
     <title><![CDATA[markdown 语法参考]]></title>
     <url>%2F2018%2F06%2F20%2Fsecond-blog%2F</url>
-    <content type="text"><![CDATA[markman标签demo 大标题中标题小标题斜体字加粗背景色 1var a=[]; 图标 区域区域 区域 区域 无序列表 无序列表 无序列表 1.有序列表2.有序列表3.有序列表 绘制表格 项目 价格 数量 计算机 $1600 5 手机 $12 12 管线 $1 234]]></content>
+    <content type="text"><![CDATA[markdown语法demo 大标题中标题小标题斜体字加粗背景色 1var a=[]; 图标 区域区域 区域 区域 无序列表 无序列表 无序列表 This is an example link I get 10 times more traffic from Google than from Yahoo or MSN. 1.有序列表2.有序列表3.有序列表 绘制表格 项目 价格 数量 计算机 $1600 5 手机 $12 12 管线 $1 234]]></content>
       <categories>
         <category>生活</category>
       </categories>
