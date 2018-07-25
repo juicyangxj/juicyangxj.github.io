@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="个推,安卓," />
+  <meta name="keywords" content="js,最短路径," />
 
 
 
@@ -79,18 +79,21 @@
 
 
 
-<meta name="description" content="HBuilder推送功能已集成的包括：个推和小米推送。小米推送面向企业不考虑，那只能选择个推了，因为最近在做一个安卓的app，下面主要先讲安卓，苹果的略微带过。">
-<meta name="keywords" content="个推,安卓">
+<meta name="description" content="你是否在做一款H5游戏的时候想创造一些游戏主角，让它们移动到指定的位置，避开墙壁和障碍物呢？下面的案例是由纯js实现的,由canvas绘图，并只考虑向上下左右四邻域移动。  效果展示图  核心思想12345678910111213141516//第一步：画棋盘，向外扩展一圈    var $map = drawmap(me.opts, me.$element);// 第二步：画障碍点和边界，初始">
+<meta name="keywords" content="js,最短路径">
 <meta property="og:type" content="article">
-<meta property="og:title" content="个推推送实现方案">
-<meta property="og:url" content="http://yoursite.com/2018/07/25/HBuilder推送指南/index.html">
+<meta property="og:title" content="A*寻路算法">
+<meta property="og:url" content="http://yoursite.com/2018/07/25/A-寻路算法/index.html">
 <meta property="og:site_name" content="晓说╭❤">
-<meta property="og:description" content="HBuilder推送功能已集成的包括：个推和小米推送。小米推送面向企业不考虑，那只能选择个推了，因为最近在做一个安卓的app，下面主要先讲安卓，苹果的略微带过。">
+<meta property="og:description" content="你是否在做一款H5游戏的时候想创造一些游戏主角，让它们移动到指定的位置，避开墙壁和障碍物呢？下面的案例是由纯js实现的,由canvas绘图，并只考虑向上下左右四邻域移动。  效果展示图  核心思想12345678910111213141516//第一步：画棋盘，向外扩展一圈    var $map = drawmap(me.opts, me.$element);// 第二步：画障碍点和边界，初始">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-07-25T00:57:16.680Z">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2017/11/28/1600044586989221?w=566&h=685&f=png&s=33157">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2017/11/28/1600045125b84351?w=539&h=696&f=png&s=29591">
+<meta property="og:updated_time" content="2018-07-25T01:30:32.118Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="个推推送实现方案">
-<meta name="twitter:description" content="HBuilder推送功能已集成的包括：个推和小米推送。小米推送面向企业不考虑，那只能选择个推了，因为最近在做一个安卓的app，下面主要先讲安卓，苹果的略微带过。">
+<meta name="twitter:title" content="A*寻路算法">
+<meta name="twitter:description" content="你是否在做一款H5游戏的时候想创造一些游戏主角，让它们移动到指定的位置，避开墙壁和障碍物呢？下面的案例是由纯js实现的,由canvas绘图，并只考虑向上下左右四邻域移动。  效果展示图  核心思想12345678910111213141516//第一步：画棋盘，向外扩展一圈    var $map = drawmap(me.opts, me.$element);// 第二步：画障碍点和边界，初始">
+<meta name="twitter:image" content="https://user-gold-cdn.xitu.io/2017/11/28/1600044586989221?w=566&h=685&f=png&s=33157">
 
 
 
@@ -120,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/07/25/HBuilder推送指南/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/07/25/A-寻路算法/"/>
 
 
 
@@ -148,7 +151,7 @@ daovoice('update');
 	}
 </style>
 
-  <title>个推推送实现方案 | 晓说╭❤</title>
+  <title>A*寻路算法 | 晓说╭❤</title>
   
 
 
@@ -325,7 +328,7 @@ daovoice('update');
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/25/HBuilder推送指南/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/25/A-寻路算法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Juicyangxj">
@@ -341,7 +344,7 @@ daovoice('update');
       <header class="post-header">
         
         
-          <h2 class="post-title" itemprop="name headline">个推推送实现方案</h2>
+          <h2 class="post-title" itemprop="name headline">A*寻路算法</h2>
         
 
         <div class="post-meta">
@@ -353,7 +356,7 @@ daovoice('update');
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-25T16:40:22+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-25T09:27:45+08:00">
                 2018-07-25
               </time>
             
@@ -376,8 +379,8 @@ daovoice('update');
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/推送/" itemprop="url" rel="index">
-                    <span itemprop="name">推送</span>
+                  <a href="/categories/算法/" itemprop="url" rel="index">
+                    <span itemprop="name">算法</span>
                   </a>
                 </span>
 
@@ -395,8 +398,8 @@ daovoice('update');
                 <i class="fa fa-comment-o"></i>
               </span>
               
-                <a href="/2018/07/25/HBuilder推送指南/#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/07/25/HBuilder推送指南/" itemprop="commentsCount"></span>
+                <a href="/2018/07/25/A-寻路算法/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/07/25/A-寻路算法/" itemprop="commentsCount"></span>
                 </a>
               
             
@@ -418,7 +421,7 @@ daovoice('update');
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,182
+                  1,078
                 </span>
               
 
@@ -434,7 +437,7 @@ daovoice('update');
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  4
+                  5
                 </span>
               
             </div>
@@ -455,68 +458,17 @@ daovoice('update');
       
 
       
-        <p>HBuilder推送功能已集成的包括：个推和小米推送。小米推送面向企业不考虑，那只能选择个推了，因为最近在做一个安卓的app，下面主要先讲安卓，苹果的略微带过。</p>
-<a id="more"></a>
-<h1 id="安卓个推开发方案"><a href="#安卓个推开发方案" class="headerlink" title="安卓个推开发方案"></a>安卓个推开发方案</h1><h2 id="安卓注意点"><a href="#安卓注意点" class="headerlink" title="安卓注意点"></a>安卓注意点</h2><ol>
-<li>用户若禁止该APP的推送，那自然是收不到消息的</li>
-<li>Android rom厂商为了省电会禁止push进程开机自启、第三方清理软件也会杀掉push进程。因此要保证应用在后台运行状态。像qq、微信能“离线推送”，其实并非离线，大厂app早已手机厂商或第三方清理软件白名单，这些APP实际上还在运行。</li>
-<li>安卓第一次安装APP成功立刻获取cid为字符串null，不知道为啥,因此我搞了个定时器循环读取它。</li>
-</ol>
-<h2 id="消息分类"><a href="#消息分类" class="headerlink" title="消息分类"></a>消息分类</h2><ol>
-<li>普通消息<br>会收到通知消息，事件都不触发<br>服务器可以向安卓平台发送三种类型的普通消息“通知”“下载”“网址”，发送“通知”消息会启动APP，如果是“下载”消息则会调用系统的下载管理器下载指定文件，点击“网址”消息则会调用系统浏览器打开指定的网址。<blockquote>
-<p>流程<br>个推平台发送普通消息-》用户收到通知消息-》用户点击消息-》启动应用</p>
+        <blockquote>
+<p>你是否在做一款H5游戏的时候想创造一些游戏主角，让它们移动到指定的位置，避开墙壁和障碍物呢？<br>下面的案例是由纯js实现的,由canvas绘图，并只考虑向上下左右四邻域移动。</p>
 </blockquote>
-</li>
-</ol>
-<p>不管应用在线还是离线，在系统通知栏中显示消息，点击消息后启动应用（如果已经启动则从后台切换到前台），此消息不触发“click”事件。</p>
-<ol start="2">
-<li>符合格式的透传消息<br>会收到通知消息<blockquote>
-<p>流程<br>个推平台发送透传消息-》符合格式-》用户收到通知消息-》用户点击消息-》监听页面触发click事件</p>
-</blockquote>
-</li>
-</ol>
-<p>不管应用在线还是离线，如果透传数据格式符合“{title:’标题’,content:’内容’,payload:’数据’}”格式，则在系统通知栏中显示消息，点击消息后触发“click”事件，可通过msg.title获取标题、msg.content获取内容、msg.payload获取数据。</p>
-<ol start="3">
-<li><p>不符合格式的透传消息<br>不会收到通知消息，但是会触发监听页面的“receive”事件</p>
-<blockquote>
-<p>流程<br>个推平台发送透传消息-》不符合格式-》应用在后台运行-》监听页面触发receive事件<br>不管应用在线还是离线，如果透传数据格式不符合“{title:’标题’,content:’内容’,payload:’数据’}”格式，触发“receive”事件，可通过msg.payload获取完整透传数据。</p>
-</blockquote>
-</li>
-<li><p>本地创建的消息<br>会收到通知消息<br>点击消息后触发“click”事件，可通过msg.title获取标题、msg.content获取内容、msg.payload创建时可设置为“LocalMSG”，用于区分是点击的本地的还是符合格式的透传消息。</p>
-</li>
-</ol>
-<p>##讲了那么多原理，到底应该选择哪一种推送呢?<br>方案一：选择普通消息<br>优点：简单，可以收到通知，前端不用咋处理<br>缺点：点了推送指南启动应用（下载和网址先不考虑），不能做后续操作，角标可能会有问题；即时性差点，万一用户不点消息就直接进入app或者app正好打开着突然收到推送，那如何去局部更新那数据呢，估计还是只能靠轮询定时更新数据。当然，如果你的app不涉及局部数据变化或者方案三因为各种不可抗力因素走不通的话，当然选这个啦。</p>
-<p>方案二：选择符合格式的透传消息<br>优点：可以收到通知，点击通知后可以触发click事件，获取点击的数据。测试的时候发现居然透传消息推送过来可以选择强制启动应用，当然，是不敢用在应用中的啦~~。<br>缺点：即时性应该差，万一用户不点消息就直接进入app或者app正好打开着突然收到推送，那如何去局部更新那数据呢，估计还是只能靠轮询定时更新数据。当然，如果你的app不涉及局部数据变化，同时又要点击消息打开某个模块的话，那就选这个吧。</p>
-<p>方案三：选择不符合格式的透传消息<br>优点：及时性好，通过receive收到消息后，可以立即更新数据并创建本地消息，本地消息点击后同样可以监听到click事件，并做后续处理<br>缺点：稍微复杂点，但个人是很心水的。<br>代码如下：<br>    <script type="text/javascript" charset="utf-8"><br>            mui.init();<br>            // 监听plusready事件<br>            document.addEventListener(“plusready”, function() {<br>                // 扩展API加载完毕，现在可以正常调用扩展API<br>                // 获取客户端标识信息<br>                var cid=plus.push.getClientInfo().clientid;<br>                var count=0;<br>                var getcid = setInterval(function() {<br>                    cid = plus.push.getClientInfo().clientid;<br>                    if(cid != “” &amp;&amp; cid != null &amp;&amp; cid != “null”) {<br>                        mui.alert(“cid=” + cid + “&amp;count=” + count);<br>                        clearInterval(getcid);<br>                    }<br>                    count++;<br>                }, 20);<br>                //获得clientid，appid,appkey,token</p>
-<pre><code>         // 监听在线消息事件,不符合格式的透传消息
-        plus.push.addEventListener(&quot;receive&quot;, function( msg ) {
-            mui.alert(&quot;接收到不符合格式在线透传消息：&quot;+JSON.stringify(msg) );
-            var options = {cover:false};
-            var str = &apos;欢迎使用Html5 Plus创建本地消息！&apos;;//msg.content
-            plus.push.createMessage( str, &quot;LocalMSG&quot;, options );
-            mui.alert( &quot;创建本地消息成功！&quot; );
-            //本地消息上下两个payload不一样。
-        }, false );
+<h2 id="效果展示图"><a href="#效果展示图" class="headerlink" title="效果展示图"></a>效果展示图</h2><p><img src="https://user-gold-cdn.xitu.io/2017/11/28/1600044586989221?w=566&amp;h=685&amp;f=png&amp;s=33157" alt="有路可走"></p>
+<p><img src="https://user-gold-cdn.xitu.io/2017/11/28/1600045125b84351?w=539&amp;h=696&amp;f=png&amp;s=29591" alt="无路可走"></p>
+<h2 id="核心思想"><a href="#核心思想" class="headerlink" title="核心思想"></a>核心思想</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//第一步：画棋盘，向外扩展一圈</span></span><br><span class="line">    <span class="keyword">var</span> $map = drawmap(me.opts, me.$element);</span><br><span class="line"><span class="comment">// 第二步：画障碍点和边界，初始化所有点,左上角为（0,0）</span></span><br><span class="line">    drawpoint(me, $map);</span><br><span class="line"><span class="comment">//这里默认把起点放入已检测点</span></span><br><span class="line">    <span class="keyword">var</span> startnum = posToindex(me.opts.startY, me.opts.startX, me.opts.mapXnum);</span><br><span class="line">    <span class="keyword">var</span> endnum = posToindex(me.opts.endY, me.opts.endX, me.opts.mapXnum);</span><br><span class="line">    me.closelist.push(me.wall[startnum]);</span><br><span class="line"><span class="comment">//第三步：从起点开始上下左右找扩展点出去，并记录父子点对。如果该点status是0且从未放入过openlist，就放入openlist</span></span><br><span class="line"><span class="comment">//从openlist中找F值最小的点组，我这里做了个优化，并选择点组中最后加入openlist的点放入closelist</span></span><br><span class="line"><span class="comment">//从当前已检测点再向外检测，要么检测到终点就停止，要么待检测点全部检测完还找不到终点就停止。</span></span><br><span class="line">    searchroad(me, [me.opts.startY, me.opts.startX], startnum);</span><br><span class="line"><span class="comment">//第四步:画检测的所有点，用红色细线标出，只需要把每个fatherson里的父子连起来就好了(这一步可以不画，跳过)</span></span><br><span class="line">    drawroad(me);</span><br><span class="line"><span class="comment">//第五步：画最终路线，黄色粗线标出。因为子元素的父元素只有一个，而一个父元素有多个子元素（比较难找），所以我们选择从终点往起点找，把能连的线全部连起来就好</span></span><br><span class="line">    drawFinalRoad(me.fatherson, startnum, endnum, me);</span><br></pre></td></tr></table></figure>
+<p>我是如下初始化参数的：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> me = <span class="keyword">this</span>;</span><br><span class="line"><span class="comment">// 原型中的this不是指的原型对象，而是调用对象。</span></span><br><span class="line"><span class="comment">//用于存地图的长和宽</span></span><br><span class="line">me.opts = $.extend(<span class="literal">true</span>, &#123;&#125;, &#123; <span class="comment">//用于设弹窗默认值</span></span><br><span class="line">    mapXnum: <span class="number">10</span>,</span><br><span class="line">    mapYnum: <span class="number">10</span>,</span><br><span class="line">    startX: <span class="number">3</span>,</span><br><span class="line">    startY: <span class="number">3</span>,</span><br><span class="line">    endX: <span class="number">6</span>,</span><br><span class="line">    endY: <span class="number">6</span>,</span><br><span class="line">    wallnum: <span class="number">10</span>,</span><br><span class="line">    map_Per: <span class="number">40</span><span class="comment">//每个格子的长度</span></span><br><span class="line">&#125;, options);</span><br><span class="line">me.wall = [];<span class="comment">//整张图信息，村边界和所有的障碍物的坐标标1，起点标2，终点标3,其余标0，距离左边，距离右边</span></span><br><span class="line"><span class="comment">//index从上往下数数，从0开始，下次用二维数组做试试。。。一开始咋先用了一维。。。</span></span><br><span class="line">me.openlist = [];<span class="comment">//待检测的点</span></span><br><span class="line">me.closelist = [];<span class="comment">//已检测的点</span></span><br><span class="line">me.fatherson = [];<span class="comment">//检测过程中记录父子关系对，父节点向上下左右寻找子节点时记录一下</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="built_in">Number</span>(me.opts.mapYnum) + <span class="number">2</span>; i++) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>; j &lt; <span class="built_in">Number</span>(me.opts.mapXnum) + <span class="number">2</span>; j++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (i == <span class="number">0</span> || i == <span class="built_in">Number</span>(me.opts.mapYnum) + <span class="number">1</span> || j == <span class="number">0</span> || j == <span class="built_in">Number</span>(me.opts.mapXnum) + <span class="number">1</span>) &#123;</span><br><span class="line">            me.wall.push(&#123;</span><br><span class="line">                status: <span class="number">1</span>,</span><br><span class="line">                pos: [i, j],</span><br><span class="line">                f_score: <span class="number">9999</span>,</span><br><span class="line">                index: num++</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (i == me.opts.startY &amp;&amp; j == me.opts.startX) &#123;</span><br><span class="line">            me.wall.push(&#123;</span><br><span class="line">                g_score: <span class="number">0</span>,</span><br><span class="line">                status: <span class="number">2</span>,</span><br><span class="line">                pos: [i, j],</span><br><span class="line">                index: num++</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (i == me.opts.endY &amp;&amp; j == me.opts.endX) &#123;</span><br><span class="line">            me.wall.push(&#123;</span><br><span class="line">                g_score: <span class="number">0</span>,</span><br><span class="line">                h_score: <span class="number">0</span>,</span><br><span class="line">                f_score: <span class="number">0</span>,</span><br><span class="line">                status: <span class="number">3</span>,</span><br><span class="line">                pos: [i, j],</span><br><span class="line">                index: num++</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            me.wall.push(&#123;</span><br><span class="line">                g_score: <span class="number">0</span>,</span><br><span class="line">                h_score: <span class="built_in">Math</span>.abs(i - me.opts.endY) + <span class="built_in">Math</span>.abs(j - me.opts.endX),</span><br><span class="line">                f_score: <span class="number">0</span>,</span><br><span class="line">                status: <span class="number">0</span>,</span><br><span class="line">                pos: [i, j],</span><br><span class="line">                index: num++,</span><br><span class="line">                inopen: <span class="number">0</span></span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>我是这么理解的，Dijkstra算法就是从起点开始一圈一圈向外扩散，直到扩散到终点，这样做肯定<strong>慢</strong>，但还是<strong>能找到一条最短路径</strong>。贪婪算法从直观上理解就是用最快的方法来解决问题，主要目标是<strong>快</strong>，从数学上来理解就是在做判断时以当前最优解为基础，每次取的都是当前位置距离终点最近的点，因为算法是取的局部最优解，没有考虑以后的问题，所以整体上是<strong>很难找到最短路径</strong>的。<br>贪婪是每个人都有的，但也要适可而止。我们的目标是要找到一条最短路径的前提下，速度适当的要快一点。于是，A*算法就应运而生了，既考虑了起点，又考虑了终点（要选取适合的启发函数）。明白了它大概的思想后，童鞋们就可以开始摸索啦~~~嘻嘻</p>
+<p><a href="https://juejin.im/post/5a1229596fb9a0451704cae8" target="_blank" rel="noopener">原文链接</a><br><a href="http://www.jq22.com/webqd4343" target="_blank" rel="noopener">代码链接</a></p>
 
-        // 监听点击消息事件,符合格式的透传消息或者本地消息
-        plus.push.addEventListener(&quot;click&quot;, function( msg ) {
-            // 判断是从本地创建还是离线推送的消息
-            mui.alert(JSON.stringify(msg) );
-            switch( msg.payload ) {
-                case &quot;LocalMSG&quot;:
-                     mui.alert( &quot;点击本地创建消息启动：&quot; );//title和content里获得数据
-                break;
-                default:
-                    mui.alert( &quot;点击符合格式的透传消息启动：&quot;);
-                break;
-            }
-        }, false );
-    })
-&lt;/script&gt;
-</code></pre><p>#ios个推<br>1.普通消息<br>应用在线：接收到消息后弹出提示框，点击“取消”按钮则关闭提示框，点击“确定”按钮则会发送透传数据触发“receive”事件（即使没有设置透传数据）。<br>应用离线：如果设置Token值则通过APN推送离线信息，成功后在系统通知栏中显示消息，点击消息后启动应用（如果已经启动则从后台切换到前台），同时触发“click”事件，此时可通过js处理透传数据。如果没有设置Token值则在应用启动后通过应用在线模式推送通知。</p>
-<p>2.透传消息<br>应用在线：触发“receive”事件，可通过msg.payload获取完整透传数据。<br>应用离线：如果设置Token值以及内容值则通过APN推送离线信息，成功后在系统通知栏中显示消息（显示通知的内容），点击消息后启动应用（如果已经启动则从后台切换到前台），同时触发“click”事件，此时可通过js处理透传数据；否则在应用启动后通过应用在线模式推送通知。</p>
-<p>#结束语<br>上述的描述可能有不准确之处，可以各取所需，放上来一个是方便大家，还有就是有错误的地方大家可以及时指出，(<em> ￣3)(ε￣ </em>)</p>
-</script></p>
       
     </div>
     
@@ -542,9 +494,9 @@ daovoice('update');
       
         <div class="post-tags">
           
-            <a href="/tags/个推/" rel="tag"><i class="fa fa-tag"></i> 个推</a>
+            <a href="/tags/js/" rel="tag"><i class="fa fa-tag"></i> js</a>
           
-            <a href="/tags/安卓/" rel="tag"><i class="fa fa-tag"></i> 安卓</a>
+            <a href="/tags/最短路径/" rel="tag"><i class="fa fa-tag"></i> 最短路径</a>
           
         </div>
       
@@ -557,8 +509,8 @@ daovoice('update');
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/25/通过几句node.js为前端初学者写个常用工具/" rel="next" title="通过几句node.js为前端初学者写个常用工具">
-                <i class="fa fa-chevron-left"></i> 通过几句node.js为前端初学者写个常用工具
+              <a href="/2018/07/06/公司项目推介会稿子-1/" rel="next" title="公司项目推介会稿子">
+                <i class="fa fa-chevron-left"></i> 公司项目推介会稿子
               </a>
             
           </div>
@@ -566,6 +518,10 @@ daovoice('update');
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/07/25/node-js写个加引号工具/" rel="prev" title="通过几句node.js为前端初学者写个常用工具">
+                通过几句node.js为前端初学者写个常用工具 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -657,7 +613,7 @@ daovoice('update');
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -668,7 +624,7 @@ daovoice('update');
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -679,7 +635,7 @@ daovoice('update');
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -728,7 +684,7 @@ daovoice('update');
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安卓个推开发方案"><span class="nav-number">1.</span> <span class="nav-text">安卓个推开发方案</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安卓注意点"><span class="nav-number">1.1.</span> <span class="nav-text">安卓注意点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#消息分类"><span class="nav-number">1.2.</span> <span class="nav-text">消息分类</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#效果展示图"><span class="nav-number">1.</span> <span class="nav-text">效果展示图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#核心思想"><span class="nav-number">2.</span> <span class="nav-text">核心思想</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小结"><span class="nav-number">3.</span> <span class="nav-text">小结</span></a></li></ol></div>
             
 
           </div>

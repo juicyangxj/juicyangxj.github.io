@@ -88,7 +88,7 @@
 <meta property="og:description" content="相关定义 Javascript语言将任务的执行模式分成两种：同步（Synchronous）和异步（Asynchronous）。    同步：一个进程在执行某个请求的时候，若该请求需要一段时间才能返回信息，那么这个进程将会一直等待下去，直到收到返回信息才继续执行下去。 异步：进程不需要一直等下去，而是继续执行下面的操作，不管其他进程的状态。当有消息返回时系统会通知进程进行处理，这样可以提高执行的效率">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://user-gold-cdn.xitu.io/2017/11/27/15ffdabbc4c32ae3?w=480&h=360&f=gif&s=805957">
-<meta property="og:updated_time" content="2018-06-26T09:13:24.101Z">
+<meta property="og:updated_time" content="2018-07-25T01:24:15.186Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Q:你了解异步编程、进程、单线程、多线程吗？">
 <meta name="twitter:description" content="相关定义 Javascript语言将任务的执行模式分成两种：同步（Synchronous）和异步（Asynchronous）。    同步：一个进程在执行某个请求的时候，若该请求需要一段时间才能返回信息，那么这个进程将会一直等待下去，直到收到返回信息才继续执行下去。 异步：进程不需要一直等下去，而是继续执行下面的操作，不管其他进程的状态。当有消息返回时系统会通知进程进行处理，这样可以提高执行的效率">
@@ -420,7 +420,7 @@ daovoice('update');
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,770
+                  1,774
                 </span>
               
 
@@ -510,6 +510,7 @@ daovoice('update');
 <p>下面列出异步操作失败、抓捕异常的另一种写法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">const promise = new Promise(function(resolve, reject) &#123;</span><br><span class="line">  reject(new Error(&apos;test&apos;));</span><br><span class="line">&#125;);</span><br><span class="line">promise.catch(function(error) &#123;</span><br><span class="line">  console.log(error);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
 <p>这样写的优点在于，回调函数变成了<strong>链式写法</strong>，程序的流程可以看得很清楚，可以实现许多强大的功能。<br>比如，指定多个回调函数等等。</p>
 <p><img src="https://user-gold-cdn.xitu.io/2017/11/27/15ffdabbc4c32ae3?w=480&amp;h=360&amp;f=gif&amp;s=805957" alt=""></p>
+<p><a href="https://juejin.im/post/5a1b664df265da432a7b4b9d" target="_blank" rel="noopener">原文链接</a></p>
 
       
     </div>
@@ -653,7 +654,7 @@ daovoice('update');
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -664,7 +665,7 @@ daovoice('update');
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -675,7 +676,7 @@ daovoice('update');
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
