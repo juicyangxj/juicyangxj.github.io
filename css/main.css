@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bfb5ff;
+  background: #98eb58;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2938,7 +2938,8 @@ img {
   margin-bottom: 35px;
 }
 body {
-  background: linear-gradient(to bottom, #daf5f7 0%, #fafbf3 100%);
+  background: url("https://songbaba.xyz/icons/2.JPG");
+  background-size: cover;
 }
 .container {
   height: 100%;
